@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.prewiew-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.block-button {
+    height: 30px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.buttonCC {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid 1px rgba(255, 255, 255, 0.726);
+    color: rgba(255, 255, 255, 0.726);
+    transition: 0.3s;
+}
+
+.buttonCC:hover {
+    background-color: rgba(0, 175, 29, 0.555);
+    color: #fff;
+    border: solid 1px rgba(0, 173, 29, 0.521);
+    transition: 0.4s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.block-add {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 50px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.466);
+    transition: 0.3s;
+}
+
+.block-add:hover {
+    background-color: rgba(255, 255, 255, 0.726);
+    transition: 0.4s;
+}
+
+.inputadd {
+    margin: auto 7px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 35px;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.inputadd[type=text] {
+    color: #fff;
+    padding: 0 10px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    transition: 0.4s;
+}
+
+.inputadd::placeholder {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.418);
+    transition: 0.4s;
+}
+
+.block-add:hover .inputadd {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: 0.4s;
+}
+
+.block-add:hover .inputadd::placeholder {
+    color: black;
+    transition: 0.4s;
+}
+
+.block-add:hover .inputadd[type=text] {
+    color: black;
+    transition: 0.4s;
+}
+
+.buttonadd {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: rgba(253, 253, 253, 0.466);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: solid 1px rgba(253, 253, 253, 0.466);
+    outline: none;
+    align-self: center;
+    margin-left: 655px;
+    transition: 0.4s;
+}
+
+.block-add:hover .buttonadd {
+    color: black;
+    border: solid 1px rgba(0, 0, 0, 0.466);
+    transition: 0.4s;
+}
+
+.block-add .buttonadd:hover {
+    background-color: rgba(0, 175, 29, 0.555);
+    border: solid 1px rgba(0, 173, 29, 0.521);
+    transition: 0.4s;
+    color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-task {
+    display: flex;
+    margin: 0 auto;
+    height: 40px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.753);
+    margin-top: 10px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.card-task:hover {
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+.tasktext {
+    font-size: 20px;
+    margin: auto 10px;
+    font-family: 'Montserrat';;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.deltask {
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    margin-left: 655px;
+    transition: 0.3s;
+}
+
+.deltask:hover {
+    background-color: rgba(230, 39, 39, 0.726);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.deltask p {
+    font-size: 15px;
+}
+
